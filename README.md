@@ -1,5 +1,5 @@
 # easy2wsdl
-Create wsdl to javascript class with [node-soap](https://github.com/vpulim/node-soap);
+Create wsdl to javascript class with [node-soap](https://github.com/vpulim/node-soap).
 
 # Installation
 
@@ -23,7 +23,7 @@ easy2wsdl.create(url,serviceName).then((res) => {
 const easy2wsdl = require('easy2wsdl');
 const url = 'http://webservices.amazon.com/AWSECommerceService/2013-08-01/AWSECommerceService.wsdl';
 const serviceName = 'AWSECommerceService';
-easy2wsdl.create(,serviceName).then((res) => {
+easy2wsdl.create(url,serviceName).then((res) => {
   console.log(res);
 });
 ```
