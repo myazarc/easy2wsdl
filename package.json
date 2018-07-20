@@ -1,6 +1,6 @@
 {
   "name": "easy2wsdl",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "WSDL to javascript class with node-soap",
   "main": "index.js",
   "scripts": {
