@@ -13,7 +13,7 @@ npm install --save-dev easy2wsdl
 # Usage
 
 ```js
-const easy2wsdl from 'easy2wsdl';
+import easy2wsdl from 'easy2wsdl';
 
 easy2wsdl.create(url,serviceName).then((res) => {
   console.log(res);
@@ -23,7 +23,7 @@ easy2wsdl.create(url,serviceName).then((res) => {
 
 # Example
 ```js
-const easy2wsdl from 'easy2wsdl';
+import easy2wsdl from 'easy2wsdl';
 const url = 'http://webservices.amazon.com/AWSECommerceService/2013-08-01/AWSECommerceService.wsdl';
 const serviceName = 'AWSECommerceService';
 easy2wsdl.create(url,serviceName).then((res) => {
